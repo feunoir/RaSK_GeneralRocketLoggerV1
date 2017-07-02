@@ -1,0 +1,30 @@
+[submodule "KUT_Sensor.pretty"]
+	path = KUT_Sensor.pretty
+	url = https://github.com/KUT-KiCad/KUT_Sensor.pretty
+[submodule "KUT_Connector.pretty"]
+	path = KUT_Connector.pretty
+	url = https://github.com/KUT-KiCad/KUT_Connector.pretty
+[submodule "KUT_CommIC.pretty"]
+	path = KUT_CommIC.pretty
+	url = https://github.com/KUT-KiCad/KUT_CommIC.pretty
+[submodule "KUT_Components"]
+	path = KUT_Components
+	url = https://github.com/KUT-KiCad/KUT_Components
+[submodule "KUT_Boards.pretty"]
+	path = KUT_Boards.pretty
+	url = https://github.com/KUT-KiCad/KUT_Boards.pretty
+[submodule "KUT_Passive.pretty"]
+	path = KUT_Passive.pretty
+	url = https://github.com/KUT-KiCad/KUT_Passive.pretty
+[submodule "KUT_uController.pretty"]
+	path = KUT_uController.pretty
+	url = https://github.com/KUT-KiCad/KUT_uController.pretty
+[submodule "KUT_Switch.pretty"]
+	path = KUT_Switch.pretty
+	url = https://github.com/KUT-KiCad/KUT_Switch.pretty
+[submodule "KUT_DriveIC.pretty"]
+	path = KUT_DriveIC.pretty
+	url = https://github.com/KUT-KiCad/KUT_DriveIC.pretty
+[submodule "KUT_Device.pretty"]
+	path = KUT_Device.pretty
+	url = https://github.com/KUT-KiCad/KUT_Device.pretty
