@@ -8,4 +8,5 @@
   (lib (name KUT_Sensor)(type KiCad)(uri "$(KIPRJMOD)/KUT_Sensor.pretty")(options "")(descr ""))
   (lib (name KUT_Switch)(type KiCad)(uri "$(KIPRJMOD)/KUT_Switch.pretty")(options "")(descr ""))
   (lib (name KUT_uController)(type KiCad)(uri "$(KIPRJMOD)/KUT_uController.pretty")(options "")(descr ""))
+  (lib (name user_taro)(type KiCad)(uri C:/Users/feunoir/Documents/KiCad/library/lib_mod/user_taro.pretty)(options "")(descr ""))
 )
