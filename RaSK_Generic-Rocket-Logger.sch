@@ -758,9 +758,9 @@ NoConn ~ 15200 8700
 NoConn ~ 15200 8800
 NoConn ~ 15200 8900
 NoConn ~ 15200 9000
-Text Label 15200 7650 0    60   ~ 0
-TWE_MOUT
 Text Label 15200 7750 0    60   ~ 0
+TWE_MOUT
+Text Label 15200 7650 0    60   ~ 0
 TWE_MIN
 NoConn ~ 13500 7650
 NoConn ~ 13500 7750
@@ -806,9 +806,9 @@ F 3 "" H 2550 5050 50  0001 C CNN
 	1    2550 5050
 	1    0    0    -1  
 $EndComp
-Text Label 7600 2450 2    60   ~ 0
-SD_MISO
 Text Label 7600 2350 2    60   ~ 0
+SD_MISO
+Text Label 7600 2450 2    60   ~ 0
 SD_MOSI
 Text Label 7600 2250 2    60   ~ 0
 SD_CLK
@@ -929,9 +929,9 @@ F 3 "" H 6350 5350 50  0001 C CNN
 	1    6350 5350
 	1    0    0    -1  
 $EndComp
-Text Label 7600 3850 2    60   ~ 0
-TWE_MOUT
 Text Label 7600 3750 2    60   ~ 0
+TWE_MOUT
+Text Label 7600 3850 2    60   ~ 0
 TWE_MIN
 NoConn ~ 7600 3450
 NoConn ~ 7600 3550
@@ -967,8 +967,6 @@ NoConn ~ 9700 1850
 NoConn ~ 9700 1950
 NoConn ~ 9700 2050
 NoConn ~ 9700 2350
-NoConn ~ 9700 2750
-NoConn ~ 9700 2850
 NoConn ~ 9700 2950
 NoConn ~ 9700 3050
 $Comp
@@ -1659,13 +1657,13 @@ F 3 "" H 15075 3000 60  0000 C CNN
 	1    14850 3000
 	1    0    0    -1  
 $EndComp
-Text Label 9700 2550 0    60   ~ 0
-FPIN
 Text Label 9700 2450 0    60   ~ 0
-BUZZ
-Text Label 14350 3100 2    60   ~ 0
 FPIN
+Text Label 9700 2550 0    60   ~ 0
+BUZZ
 Text Label 14350 3200 2    60   ~ 0
+FPIN
+Text Label 14350 3100 2    60   ~ 0
 BUZZ
 Wire Wire Line
 	14350 3200 14650 3200
@@ -1675,4 +1673,43 @@ Text Label 2950 10000 0    60   ~ 0
 LPS22HB_DRDY
 Text Label 7600 4150 2    60   ~ 0
 LPS22HB_DRDY
+NoConn ~ 11650 3100
+$Comp
+L GND #PWR048
+U 1 1 5992172F
+P 11550 3500
+F 0 "#PWR048" H 11550 3250 50  0001 C CNN
+F 1 "GND" H 11550 3350 50  0000 C CNN
+F 2 "" H 11550 3500 50  0001 C CNN
+F 3 "" H 11550 3500 50  0001 C CNN
+	1    11550 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11550 3500 11550 3200
+Wire Wire Line
+	11550 3200 11650 3200
+Text Label 11450 3400 2    60   ~ 0
+Debug_MOUT
+Wire Wire Line
+	11450 3400 11650 3400
+Text Label 11450 3300 2    60   ~ 0
+Debug_MIN
+Wire Wire Line
+	11450 3300 11650 3300
+Text Label 9700 2850 0    60   ~ 0
+Debug_MIN
+Text Label 9700 2750 0    60   ~ 0
+Debug_MOUT
+$Comp
+L KRC_UARTModule P4
+U 1 1 599227DA
+P 11850 3250
+F 0 "P4" H 11800 3500 60  0000 C CNN
+F 1 "UARTDebug" H 11850 3000 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 12075 3200 60  0001 C CNN
+F 3 "" H 12075 3200 60  0000 C CNN
+	1    11850 3250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

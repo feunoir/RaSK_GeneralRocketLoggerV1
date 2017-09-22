@@ -1,4 +1,4 @@
-update=2017/08/09 18:59:54
+update=2017/08/31 0:43:14
 version=1
 last_client=kicad
 [pcbnew]
@@ -68,3 +68,13 @@ LibName36=KUT_Components/KUT_PowerIC
 LibName37=KUT_Components/KUT_Sensor
 LibName38=KUT_Components/KUT_Switch
 LibName39=KUT_Components/KUT_uController
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
