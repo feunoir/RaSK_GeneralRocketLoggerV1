@@ -1,0 +1,13 @@
+(fp_lib_table
+  (lib (name KUT_Boards)(type KiCad)(uri "$(KIPRJMOD)/KUT_Boards.pretty")(options "")(descr ""))
+  (lib (name KUT_CommIC)(type KiCad)(uri "$(KIPRJMOD)/KUT_CommIC.pretty")(options "")(descr ""))
+  (lib (name KUT_Connector)(type KiCad)(uri "$(KIPRJMOD)/KUT_Connector.pretty")(options "")(descr ""))
+  (lib (name KUT_Device)(type KiCad)(uri "$(KIPRJMOD)/KUT_Device.pretty")(options "")(descr ""))
+  (lib (name KUT_DriveIC)(type KiCad)(uri "$(KIPRJMOD)/KUT_DriveIC.pretty")(options "")(descr ""))
+  (lib (name KUT_Passive)(type KiCad)(uri "$(KIPRJMOD)/KUT_Passive.pretty")(options "")(descr ""))
+  (lib (name KUT_Sensor)(type KiCad)(uri "$(KIPRJMOD)/KUT_Sensor.pretty")(options "")(descr ""))
+  (lib (name KUT_Switch)(type KiCad)(uri "$(KIPRJMOD)/KUT_Switch.pretty")(options "")(descr ""))
+  (lib (name KUT_uController)(type KiCad)(uri "$(KIPRJMOD)/KUT_uController.pretty")(options "")(descr ""))
+  (lib (name user_taro)(type KiCad)(uri C:/Users/feunoir/Documents/KiCad/library/lib_mod/user_taro.pretty)(options "")(descr ""))
+  (lib (name user_temp)(type KiCad)(uri "$(KIPRJMOD)/user_temp.pretty")(options "")(descr ""))
+)
